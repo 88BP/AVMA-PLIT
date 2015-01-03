@@ -388,21 +388,21 @@ jQuery(document).ready(function () {
     /* ==========================================================================
     Portfolio Slider
     ========================================================================== */
-    // jQuery('.owl-portfolio').owlCarousel({
-    //     items: 1,
-    //     autoPlay: true,
-    //     singleItem: true,
-    //     stopOnHover: true,
-    //     pagination: false,
-    //     navigation: false
-    // });
+ jQuery('.owl-portfolio').owlCarousel({
+     items: 1,
+     autoPlay: true,
+     singleItem: true,
+     stopOnHover: true,
+     pagination: false,
+     navigation: false
+ });
 
-    // jQuery('a.portfolio-next').click(function () {
-    //     jQuery('.owl-portfolio').trigger('owl.next');
-    // });
-    // jQuery('a.portfolio-prev').click(function () {
-    //     jQuery('.owl-portfolio').trigger('owl.prev');
-    // });
+ jQuery('a.portfolio-next').click(function () {
+     jQuery('.owl-portfolio').trigger('owl.next');
+ });
+ jQuery('a.portfolio-prev').click(function () {
+     jQuery('.owl-portfolio').trigger('owl.prev');
+ });
 
 
     /* ==========================================================================

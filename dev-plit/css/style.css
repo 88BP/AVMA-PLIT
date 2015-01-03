@@ -21,8 +21,8 @@ Version: 1.0
 
 
 Notes:
-    Color1: #323133;
-    Color2: #323133;
+    Color1: #6d6464;
+    Color2: #6d6464;
 
 
 1. General
@@ -309,7 +309,7 @@ Notes:
 body {
     margin: 0;
     padding: 0;
-    color: #323133;
+    color: #6d6464;
     overflow-x: hidden;
     background-color: #ffffff;
     -webkit-text-size-adjust: 100%;
@@ -330,7 +330,7 @@ body {
 /* 1.2 Anchor
 -------------------------------------------------------------------------- */
 a {
-    color: #323133;
+    color: #6d6464;
     cursor: pointer;
 }
 a,
@@ -342,7 +342,7 @@ a > * {
 a:focus,
 a:hover {
     outline: none;
-    color: #323133;
+    color: #6d6464;
     text-decoration: none;
 }
 
@@ -378,7 +378,7 @@ textarea { color: #000000; }
     z-index: 1;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: normal;
     overflow: hidden;
     line-height: 28px;
     padding: 10px 30px;
@@ -424,7 +424,7 @@ textarea { color: #000000; }
          -o-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
 }
-.btn-nesto:hover { color: #323133; }
+.btn-nesto:hover { color: #6d6464; }
 .btn-nesto:hover:after { height: 100%; }
 
 /* 1.4.2 Alternative Main Buttons
@@ -432,9 +432,9 @@ textarea { color: #000000; }
 .btn-nesto-o,
 .btn.btn-nesto-o {
     z-index: 1;
-    color: #323133;
+    color: #6d6464;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: normal;
     overflow: hidden;
     line-height: 28px;
     padding: 10px 30px;
@@ -472,7 +472,7 @@ textarea { color: #000000; }
     content: '';
     z-index: -1;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -483,10 +483,10 @@ textarea { color: #000000; }
 .btn-nesto-o:hover {
     color: #ffffff;
 
-    -webkit-border-color: #323133;
-       -moz-border-color: #323133;
-         -o-border-color: #323133;
-            border-color: #323133;
+    -webkit-border-color: #6d6464;
+       -moz-border-color: #6d6464;
+         -o-border-color: #6d6464;
+            border-color: #6d6464;
 }
 .btn-nesto-o:hover:after { height: 100%; }
 
@@ -503,7 +503,7 @@ textarea { color: #000000; }
 -------------------------------------------------------------------------- */
 .section-title {
     width: 100%;
-    color: #323133;
+    color: #6d6464;
     font-size: 40px;
     font-weight: 700;
     overflow: hidden;
@@ -523,7 +523,7 @@ textarea { color: #000000; }
     content: '';
     margin-left: -40px;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -665,7 +665,7 @@ textarea { color: #000000; }
     height: 100%;
     position: fixed;
     z-index: 999999;
-    background-color: #323133;
+    background-color: #6d6464;
 }
 #loader-container {
     left: 0;
@@ -706,7 +706,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    color: #323133;
+    color: #6d6464;
     line-height: 1.2;
     font-weight: normal;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -729,17 +729,17 @@ strong { font-weight: 700; }
 ::selection {
     color: #ffffff;
     text-shadow: none;
-    background-color: #323133;
+    background-color: #6d6464;
 }
 ::-webkit-selection {
     color: #ffffff;
     text-shadow: none;
-    background-color: #323133;
+    background-color: #6d6464;
 }
 ::-moz-selection {
     color: #ffffff;
     text-shadow: none;
-    background-color: #323133;
+    background-color: #6d6464;
 }
 
 
@@ -834,8 +834,8 @@ strong { font-weight: 700; }
 }
 .navbar-nav > li > a {
     color: #ffffff;
-    padding: 20px 0;
-    font-size: 20px;
+    padding: 25px 0;
+    font-size: 14px;
     font-weight: 400;
     line-height: 50px;
     font-family: 'aaux-next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -910,7 +910,7 @@ strong { font-weight: 700; }
     list-style: none;
     overflow: hidden;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -926,10 +926,10 @@ strong { font-weight: 700; }
     content: '';
     position: absolute;
 
-	-webkit-border-bottom: 10px solid #323133;
-       -moz-border-bottom: 10px solid #323133;
-         -o-border-bottom: 10px solid #323133;
-            border-bottom: 10px solid #323133;
+	-webkit-border-bottom: 10px solid #6d6464;
+       -moz-border-bottom: 10px solid #6d6464;
+         -o-border-bottom: 10px solid #6d6464;
+            border-bottom: 10px solid #6d6464;
 
     -webkit-border-left: 10px solid transparent;
        -moz-border-left: 10px solid transparent;
@@ -1313,18 +1313,18 @@ strong { font-weight: 700; }
 }
 #owl-home-wrapper .home-prev:hover,
 #owl-home-wrapper .home-next:hover {
-    color: #323133;
+    color: #6d6464;
 }
 
 
 
 
 /* ==========================================================================
-   5. About Section 1
+   5. Story Section
 ========================================================================== */
 /* 5.1 Wrapper
 -------------------------------------------------------------------------- */
-#about-section-1 {
+#story-section {
     width: 100%;
     overflow: hidden;
     padding: 100px 0 300px;
@@ -1442,7 +1442,7 @@ strong { font-weight: 700; }
     float: left;
     width: 50px;
     height: 50px;
-    color: #323133;
+    color: #6d6464;
     font-size: 26px;
     line-height: 56px;
     text-align: center;
@@ -1472,7 +1472,7 @@ strong { font-weight: 700; }
     content: '';
     width: 100%;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -1486,10 +1486,10 @@ strong { font-weight: 700; }
 .feature-box-style-1:hover .feature-icon {
     color: #ffffff;
 
-    -webkit-border-color: #323133;
-       -moz-border-color: #323133;
-         -o-border-color: #323133;
-            border-color: #323133;
+    -webkit-border-color: #6d6464;
+       -moz-border-color: #6d6464;
+         -o-border-color: #6d6464;
+            border-color: #6d6464;
 }
 .feature-box-style-1:hover .feature-icon:after { height: 100%; }
 
@@ -1625,13 +1625,71 @@ strong { font-weight: 700; }
 .style-guide-content .section-content { margin-bottom: 30px; }
 
 
+/* ==========================================================================
+   8a. Poster Mockups Section
+========================================================================== */
+/* 8a.1 Wrapper
+-------------------------------------------------------------------------- */
+#poster-mockup-section {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/background/downloadbg-2.jpg);
+
+    -webkit-background-size: 100%;
+       -moz-background-size: 100%;
+         -o-background-size: 100%;
+            background-size: 100%;
+}
+#style-guide-section:hover .short-section-title:after { width: 150px; }
+
+/* 8a.2 OverLayer
+-------------------------------------------------------------------------- */
+#poster-mockup-section-overlayer {
+    width: 100%;
+    overflow: hidden;
+    padding: 400px 0 0;
+    position: relative;
+}
+
+/* 8a.3 Feature style-guide Image
+-------------------------------------------------------------------------- */
+.feature-bottom-image {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+/* 8a.4 style-guide Content
+-------------------------------------------------------------------------- */
+.poster-mockup-content {
+    float: right;
+    max-width: 375px;
+    overflow: hidden;
+    margin: 50px auto;
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+}
+.poster-mockup-content .section-content,
+.poster-mockup-content .short-section-title {
+    color: #ffffff;
+}
+.poster-mockup-content .section-content { margin-bottom: 30px; }
+
+
 
 /* ==========================================================================
    9. Clients Section
 ========================================================================== */
 /* 9.1 Wrapper
 -------------------------------------------------------------------------- */
-#clients-section {
+#findings-section {
     width: 100%;
     padding: 100px 0 500px;
     overflow: hidden;
@@ -1734,11 +1792,57 @@ strong { font-weight: 700; }
 }
 #owl-client-wrapper .client-prev:hover,
 #owl-client-wrapper .client-next:hover {
-    color: #323133;
+    color: #6d6464;
 }
 .owl-client .slide-content a:hover { opacity: 0.5; }
 
+/* ==========================================================================
+   8. Our Brand Positioning Section
+========================================================================== */
+/* 8.1 Wrapper
+-------------------------------------------------------------------------- */
+#obp-section {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #2aa149;
+}
+#obp-section:hover .short-section-title:after { width: 150px; }
 
+/* 8.2 OverLayer
+-------------------------------------------------------------------------- */
+#obp-section-overlayer {
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 8.3 Feature Our Brand Positioning Image
+-------------------------------------------------------------------------- */
+.feature-bottom-image {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+/* 8.4 Our Brand Positioning Content
+-------------------------------------------------------------------------- */
+.obp-content {
+    float: left;
+    max-width: 750px;
+    overflow: hidden;
+    margin: 50px auto;
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+}
+.obp-content .section-content,
+.obp-content .short-section-title {
+    color: #ffffff;
+}
+.obp-content .section-content { margin-bottom: 30px; }
 
 
 /* ==========================================================================
@@ -1862,14 +1966,60 @@ strong { font-weight: 700; }
 .feature-box-style-2:hover .feature-icon {
     color: #ffffff;
 
-    -webkit-border-color: #323133;
-       -moz-border-color: #323133;
-         -o-border-color: #323133;
-            border-color: #323133;
+    -webkit-border-color: #6d6464;
+       -moz-border-color: #6d6464;
+         -o-border-color: #6d6464;
+            border-color: #6d6464;
 }
 .feature-box-style-2:hover .feature-icon:after { height: 100%; }
 
 
+/* ==========================================================================
+   8. Developing the AVMA PLIT look Section
+========================================================================== */
+/* 8.1 Wrapper
+-------------------------------------------------------------------------- */
+#developing-section {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #554545;
+}
+#developing-section:hover .short-section-title:after { width: 150px; }
+
+/* 8.2 OverLayer
+-------------------------------------------------------------------------- */
+#developing-section-overlayer {
+    width: 100%;
+    overflow: hidden;
+    padding: 400px 0 0;
+    position: relative;
+}
+
+/* 8.3 Feature style-guide Image
+-------------------------------------------------------------------------- */
+.feature-bottom-image {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+/* 8.4 style-guide Content
+-------------------------------------------------------------------------- */
+.developing-content {
+    float: right;
+    max-width: 375px;
+    overflow: hidden;
+    margin: 50px auto;
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+}
+.developing-content .section-content,
+.developing-content .short-section-title {
+    color: #ffffff;
+}
+.developing-content .section-content { margin-bottom: 30px; }
 
 
 /* ==========================================================================
@@ -1995,7 +2145,7 @@ strong { font-weight: 700; }
 -------------------------------------------------------------------------- */
 .stop-video:hover,
 .play-video:hover {
-    color: #323133;
+    color: #6d6464;
 }
 .stop-video:hover:after,
 .play-video:hover:after {
@@ -2040,7 +2190,7 @@ strong { font-weight: 700; }
     float: left;
     width: 100px;
     height: 100px;
-    color: #323133;
+    color: #6d6464;
     font-size: 50px;
     overflow: hidden;
     position: relative;
@@ -2071,7 +2221,7 @@ strong { font-weight: 700; }
     content: '';
     width: 100%;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -2106,7 +2256,7 @@ strong { font-weight: 700; }
 .feature-box-style-3 .feature-title {
     width: 100%;
     display: block;
-    color: #323133;
+    color: #6d6464;
     font-size: 28px;
     text-align: left;
     font-weight: 700;
@@ -2144,10 +2294,10 @@ strong { font-weight: 700; }
 .feature-box-style-3:hover .feature-icon {
     color: #ffffff;
 
-    -webkit-border-color: #323133;
-       -moz-border-color: #323133;
-         -o-border-color: #323133;
-            border-color: #323133;
+    -webkit-border-color: #6d6464;
+       -moz-border-color: #6d6464;
+         -o-border-color: #6d6464;
+            border-color: #6d6464;
 }
 .feature-box-style-3:hover .feature-icon:after { height: 100%; }
 
@@ -2274,12 +2424,12 @@ strong { font-weight: 700; }
     overflow: hidden;
     position: relative;
     margin: 0 auto 20px;
-    background-color: #323133;
+    background-color: #6d6464;
 
-    -webkit-border: 2px solid #323133;
-       -moz-border: 2px solid #323133;
-         -o-border: 2px solid #323133;
-            border: 2px solid #323133;
+    -webkit-border: 2px solid #6d6464;
+       -moz-border: 2px solid #6d6464;
+         -o-border: 2px solid #6d6464;
+            border: 2px solid #6d6464;
 }
 
 /* 14.2.2.2 Image
@@ -2308,7 +2458,7 @@ strong { font-weight: 700; }
     display: block;
     overflow: hidden;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
 	-webkit-transition: -webkit-transform 0.3s;
        -moz-transition: -moz-transform 0.3s;
@@ -2367,7 +2517,7 @@ strong { font-weight: 700; }
 .team-box .member-name {
     width: 100%;
     display: block;
-    color: #323133;
+    color: #6d6464;
     font-size: 28px;
     text-align: left;
     font-weight: 700;
@@ -2399,7 +2549,7 @@ strong { font-weight: 700; }
 /* 14.2.4 Title
 -------------------------------------------------------------------------- */
 .team-box .member-title {
-    color: #323133;
+    color: #6d6464;
     letter-spacing: 0.5px;
     text-transform: capitalize;
 }
@@ -2451,28 +2601,25 @@ strong { font-weight: 700; }
 ========================================================================== */
 /* 15.1 Wrapper
 -------------------------------------------------------------------------- */
-#purchase-section {
+#brand-gallery-section {
     padding: 0;
     width: 100%;
     overflow: hidden;
     background-color: #ffffff;
-
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-image: url(../images/background/purchasebg.jpg);
 
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
 }
-#purchase-section .section-content,
-#purchase-section .short-section-title {
-    color: #ffffff;
+.bgbtn {
+	text-align: center;
 }
-#purchase-section .feature-bottom-image img { width: 100%; }
-#purchase-section .feature-bottom-image { margin-top: 15px; }
+#brand-gallery-section h4 {
+	color: #6d6464;
+}
+#brand-gallery-section .feature-bottom-image img { width: 100%; }
+#brand-gallery-section .feature-bottom-image { margin-top: 15px; }
 
 /* 15.2 OverLayer
 -------------------------------------------------------------------------- */
@@ -2483,6 +2630,8 @@ strong { font-weight: 700; }
     padding: 100px 0 0;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+
 
 
 
@@ -2534,7 +2683,7 @@ strong { font-weight: 700; }
     content: '%';
     height: 30px;
     display: block;
-    color: #323133;
+    color: #6d6464;
     font-size: 16px;
     font-weight: 700;
     overflow: hidden;
@@ -2556,7 +2705,7 @@ strong { font-weight: 700; }
     width: 112px;
     height: 112px;
     display: block;
-    color: #323133;
+    color: #6d6464;
     font-size: 46px;
     font-weight: 700;
     overflow: hidden;
@@ -2579,7 +2728,7 @@ strong { font-weight: 700; }
     content: '';
     width: 100%;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -2592,7 +2741,7 @@ strong { font-weight: 700; }
 -------------------------------------------------------------------------- */
 .skill-box .skill-title {
     width: 100%;
-    color: #323133;
+    color: #6d6464;
     font-size: 28px;
     font-weight: 700;
     overflow: hidden;
@@ -2728,7 +2877,7 @@ strong { font-weight: 700; }
 }
 #owl-portfolio-wrapper .portfolio-prev:hover,
 #owl-portfolio-wrapper .portfolio-next:hover {
-    color: #323133;
+    color: #6d6464;
 }
 
 /* 17.2 Portfolio Columns
@@ -2758,21 +2907,21 @@ strong { font-weight: 700; }
     float: left;
     overflow: hidden;
     position: relative;
-    background-color: #323133;
+    background-color: #6d6464;
 }
 .grid-2 div.slide-item .portfolio-content {
     width: 50%;
     float: left;
     overflow: hidden;
     position: relative;
-    background-color: #323133;
+    background-color: #6d6464;
 }
 .grid-3 div.slide-item .portfolio-content {
     float: left;
     overflow: hidden;
     position: relative;
     width: 33.33333333%;
-    background-color: #323133;
+    background-color: #6d6464;
 }
 
 /* 17.2.3 Image
@@ -2818,7 +2967,7 @@ div.slide-item .portfolio-info {
     width: 100%;
     position: absolute;
     padding: 15px 20px;
-    background-color: #323133;
+    background-color: #6d6464;
 }
 
 /* 17.2.4.2.2 Titel
@@ -2936,7 +3085,7 @@ div.slide-item .portfolio-info {
     float: right;
     width: 130px;
     height: 130px;
-    color: #323133;
+    color: #6d6464;
     font-size: 62px;
     font-weight: 700;
     overflow: hidden;
@@ -2965,7 +3114,7 @@ div.slide-item .portfolio-info {
     z-index: -1;
     width: 100%;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -2977,7 +3126,7 @@ div.slide-item .portfolio-info {
     right: 30px;
     content: '';
     bottom: 20px;
-    color: #323133;
+    color: #6d6464;
     font-size: 16px;
     line-height: 16px;
     position: absolute;
@@ -2994,7 +3143,7 @@ div.slide-item .portfolio-info {
 -------------------------------------------------------------------------- */
 .pricing-table .table-title {
     width: 100%;
-    color: #323133;
+    color: #6d6464;
     font-size: 28px;
     font-weight: 700;
     overflow: hidden;
@@ -3101,7 +3250,7 @@ div.slide-item .portfolio-info {
     z-index: 1;
     width: 100%;
     display: block;
-    color: #323133;
+    color: #6d6464;
     font-size: 20px;
     font-weight: 700;
     overflow: hidden;
@@ -3131,7 +3280,7 @@ div.slide-item .portfolio-info {
     content: '';
     z-index: -1;
     position: absolute;
-    background-color: #323133;
+    background-color: #6d6464;
 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -3352,12 +3501,12 @@ p.nesto-response {
     display: block;
     overflow: hidden;
     margin-bottom: 20px;
-    background-color: #323133;
+    background-color: #6d6464;
 
-    -webkit-border: 2px solid #323133;
-       -moz-border: 2px solid #323133;
-         -o-border: 2px solid #323133;
-            border: 2px solid #323133;
+    -webkit-border: 2px solid #6d6464;
+       -moz-border: 2px solid #6d6464;
+         -o-border: 2px solid #6d6464;
+            border: 2px solid #6d6464;
 }
 .post-image img {
     width: 100%;
@@ -3373,7 +3522,7 @@ p.nesto-response {
 .post-title,
 .post-title a {
     width: 100%;
-    color: #323133;
+    color: #6d6464;
     font-size: 28px;
     font-weight: 700;
     overflow: hidden;
@@ -3406,7 +3555,7 @@ p.nesto-response {
     float: left;
     width: 70px;
     height: 70px;
-    color: #323133;
+    color: #6d6464;
     font-weight: 700;
     overflow: hidden;
     padding-top: 10px;
@@ -3592,8 +3741,8 @@ p.nesto-response {
     position: relative;
     margin-bottom: 2em;
     padding: 2em;
-    border-bottom: 5px solid #6D6452;
-    border-top: 1px solid #6D6452;
+    border-bottom: 8px solid #6D6452;
+    border-top: 4px solid #6D6452;
     margin-top: 30px;
   }
 
@@ -3683,7 +3832,7 @@ p.nesto-response {
     width: 100%;
     height: 50px;
     outline: none;
-    color: #323133;
+    color: #6d6464;
     font-size: 14px;
     padding: 6px 16px;
     margin-bottom: 30px;
@@ -3714,10 +3863,10 @@ p.nesto-response {
 }
 #contactform .form-control:hover,
 #contactform .form-control:focus {
-    -webkit-border-color: #323133;
-       -moz-border-color: #323133;
-         -o-border-color: #323133;
-            border-color: #323133;
+    -webkit-border-color: #6d6464;
+       -moz-border-color: #6d6464;
+         -o-border-color: #6d6464;
+            border-color: #6d6464;
 }
 
 /* 22.3 Textarea
@@ -3743,7 +3892,7 @@ p.nesto-response {
 -------------------------------------------------------------------------- */
 .form-message {
     width: 100%;
-    color: #323133;
+    color: #6d6464;
     min-height: 28px;
     margin-top: 20px;
     text-align: center;
@@ -3753,10 +3902,10 @@ p.nesto-response {
 #email.form-error,
 #subject.form-error,
 #message.form-error {
-    -webkit-border-color: #323133;
-       -moz-border-color: #323133;
-         -o-border-color: #323133;
-            border-color: #323133;
+    -webkit-border-color: #6d6464;
+       -moz-border-color: #6d6464;
+         -o-border-color: #6d6464;
+            border-color: #6d6464;
 }
 
 
@@ -3945,7 +4094,7 @@ background-color: #39d52d;
 -------------------------------------------------------------------------- */
 .dash_title {
     width: 100%;
-    color: #323133;
+    color: #6d6464;
     display: block;
 	font-size: 18px;
     text-transform: uppercase;
@@ -3955,7 +4104,7 @@ background-color: #39d52d;
 -------------------------------------------------------------------------- */
 .digit {
     height: 100px;
-    color: #323133;
+    color: #6d6464;
     font-size: 100px;
     overflow: hidden;
     line-height: 100px;
@@ -4021,7 +4170,7 @@ background-color: #39d52d;
 /* ----------------------------------------------------------------------- */
 @media only screen and (max-width: 992px) {
 
-    #nav-wrapper { background-color: #323133; }
+    #nav-wrapper { background-color: #6d6464; }
     .navbar-header { float: none; }
     .navbar-toggle {
         display: block;
@@ -4062,7 +4211,7 @@ background-color: #39d52d;
         width: 400px;
         overflow-y: scroll;
         float: none !important;
-        background-color: #323133;
+        background-color: #6d6464;
         -webkit-overflow-scrolling: touch;
     }
     .navbar-nav > li {
@@ -4123,7 +4272,7 @@ background-color: #39d52d;
         list-style: none;
         overflow: hidden;
         position: relative;
-        background-color: #323133;
+        background-color: #6d6464;
 
         -webkit-transition: all 0.3s ease-in-out;
            -moz-transition: all 0.3s ease-in-out;
@@ -4337,11 +4486,11 @@ background-color: #39d52d;
     #services-section {
         padding: 100px 0 0px !important;
     }
-    #clients-section {
+    #findings-section {
     padding: 50px 0 100px;
     }
 
-    #about-section-1 {
+    #story-section {
     padding: 50px 0 50px;
     }
 
@@ -4353,11 +4502,11 @@ background-color: #39d52d;
 
     .container { width: 450px; }
 
-    #clients-section {
+    #findings-section {
     padding: 50px 0 100px;
     }
 
-    #about-section-1 {
+    #story-section {
     padding: 50px 0 50px;
     }
 
@@ -4453,10 +4602,10 @@ background-color: #39d52d;
         display: none;
     }
 
-    #clients-section {
+    #findings-section {
     padding: 50px 0 100px;
     }
 
-    #about-section-1 {
+    #story-section {
     padding: 50px 0 50px;
     }
