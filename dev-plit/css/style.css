@@ -1802,7 +1802,7 @@ strong { font-weight: 700; }
 /* 8.1 Wrapper
 -------------------------------------------------------------------------- */
 #obp-section {
-    padding: 100px 0 100px;
+    padding: 100px 0 70px;
     width: 100%;
     overflow: visible;
     background-color: #2aa149;
@@ -1843,7 +1843,7 @@ strong { font-weight: 700; }
 }
 .obp-content .section-content { margin-bottom: 30px; }
 
-.but-bigger { font-size: 1.1em; font-weight: 700;}
+.obp-content.but-bigger { font-size: 1.1em; font-weight: 700; margin-bottom: 0;}
 
 /* 8.5 Pin Overlapping
 -------------------------------------------------------------------------- */
@@ -1858,7 +1858,7 @@ strong { font-weight: 700; }
 	overflow: visible;
 }
 .pin img {
-	margin-top: -300px;
+	margin-top: -280px;
 }
 
 /* ==========================================================================
@@ -2635,7 +2635,6 @@ strong { font-weight: 700; }
 	color: #6d6464;
 }
 #brand-gallery-section .feature-bottom-image img { width: 100%; }
-#brand-gallery-section .feature-bottom-image { margin-top: 15px; }
 
 /* 15.2 OverLayer
 -------------------------------------------------------------------------- */
@@ -4203,11 +4202,6 @@ background-color: #2aa149;
         display: block;
         padding: 24px 0 0;
     }
-
-    .navbar {
-    margin: 0;
-    min-height: 100px;
-
     .navbar-collapse.collapse { display: block !important; }
     .navbar-collapse {
         top: 0;
@@ -4262,7 +4256,7 @@ background-color: #2aa149;
         line-height: 50px;
         position: relative;
     }
-    .navbar-nav > li.active > a { background-color: #282729; }
+    .navbar-nav > li.active > a { background-color: #6d6464; }
     .navbar-nav > li > a:before {
         left: 0;
         bottom: 0;
@@ -4271,7 +4265,7 @@ background-color: #2aa149;
         z-index: -1;
         content: '';
         position: absolute;
-        background-color: #282729;
+        background-color: #2aa149;
 
         -webkit-transition: all 0.3s ease-in-out;
            -moz-transition: all 0.3s ease-in-out;
@@ -4299,7 +4293,7 @@ background-color: #2aa149;
         list-style: none;
         overflow: hidden;
         position: relative;
-        background-color: #6d6464;
+        background-color: #323133;
 
         -webkit-transition: all 0.3s ease-in-out;
            -moz-transition: all 0.3s ease-in-out;
@@ -4325,13 +4319,9 @@ background-color: #2aa149;
         line-height: 50px;
     }
     .owl-home .slide-title {
-        font-size: 90px;
+        font-size: 50px;
+        line-height: 70px;
         margin-bottom: 10px;
-    }
-
-    .large-title {
-        white-space: pre;
-        font-size: 160px;
     }
 
     .feature-left-image { margin: 0 auto 45px; }
@@ -4392,6 +4382,8 @@ background-color: #2aa149;
     .no-bottom-padding { padding-bottom: 150px !important; }
 
     .feature-bottom-image { display: none; }
+    
+    #brand-gallery-section { padding-top: 50px; }
 
     #purchase-section,
     #download-section-overlayer {
