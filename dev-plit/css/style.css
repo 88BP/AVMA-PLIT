@@ -765,7 +765,7 @@ strong { font-weight: 700; }
          -o-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
 }
-#nav-wrapper.menubgC { background-color: #39d52d; opacity: .9; }
+#nav-wrapper.menubgC { background-color: #2aa149; opacity: .9; }
 #nav-wrapper .container { overflow: visible; }
 
 /* 3.2 Navbar
@@ -1125,7 +1125,7 @@ strong { font-weight: 700; }
     height: 100%;
     opacity: 0.9;
     position: absolute;
-    background-color: #6EB744;
+    background-color: #2aa149;
 }
 
 .brown {
@@ -1327,7 +1327,7 @@ strong { font-weight: 700; }
 #story-section {
     width: 100%;
     overflow: hidden;
-    padding: 100px 0 300px;
+    padding: 100px 0 100px;
     background-color: #ffffff;
 }
 
@@ -1685,13 +1685,13 @@ strong { font-weight: 700; }
 
 
 /* ==========================================================================
-   9. Clients Section
+   9. Research Findings Section
 ========================================================================== */
 /* 9.1 Wrapper
 -------------------------------------------------------------------------- */
 #findings-section {
     width: 100%;
-    padding: 100px 0 500px;
+    padding: 100px 0 100px;
     overflow: hidden;
     background-color: #554545;
 }
@@ -1802,9 +1802,9 @@ strong { font-weight: 700; }
 /* 8.1 Wrapper
 -------------------------------------------------------------------------- */
 #obp-section {
-    padding: 0;
+    padding: 100px 0 100px;
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
     background-color: #2aa149;
 }
 #obp-section:hover .short-section-title:after { width: 150px; }
@@ -1814,9 +1814,8 @@ strong { font-weight: 700; }
 #obp-section-overlayer {
     width: 100%;
     overflow: hidden;
-    padding: 100px 0 0;
+    padding: 0;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* 8.3 Feature Our Brand Positioning Image
@@ -1844,6 +1843,23 @@ strong { font-weight: 700; }
 }
 .obp-content .section-content { margin-bottom: 30px; }
 
+.but-bigger { font-size: 1.1em; font-weight: 700;}
+
+/* 8.5 Pin Overlapping
+-------------------------------------------------------------------------- */
+.pin-holder {
+	background-color: #2aa149;
+	height: 1px;
+	width: 100%;
+}
+.pin {
+	position: relative;
+	height: 1px;
+	overflow: visible;
+}
+.pin img {
+	margin-top: -300px;
+}
 
 /* ==========================================================================
    10. Services Section
@@ -1980,7 +1996,7 @@ strong { font-weight: 700; }
 /* 8.1 Wrapper
 -------------------------------------------------------------------------- */
 #developing-section {
-    padding: 0;
+    padding: 150px 0 100px;
     width: 100%;
     overflow: hidden;
     background-color: #554545;
@@ -1992,7 +2008,7 @@ strong { font-weight: 700; }
 #developing-section-overlayer {
     width: 100%;
     overflow: hidden;
-    padding: 400px 0 0;
+    padding: 0;
     position: relative;
 }
 
@@ -3741,7 +3757,6 @@ p.nesto-response {
     position: relative;
     margin-bottom: 2em;
     padding: 2em;
-    border-bottom: 8px solid #6D6452;
     border-top: 4px solid #6D6452;
     margin-top: 30px;
   }
@@ -3759,14 +3774,26 @@ p.nesto-response {
 
   /* Stroke */
   .tri-down:before {
-    bottom: -16px;
-    left: 85%;
-
-    /* If 1px darken stroke slightly */
-    border-top-color: #6D6452;
-    border-width: 16px;
+    height: 28px;
+    width: 100%;
+	bottom: -28px;
+	left: 0;
+	border: 0;
+	background-size: cover;
+	background-position: 0 0;
+	background-repeat: no-repeat;
   }
-
+  #story-section .tri-down:before {
+	background-image: url(../images/icons/speechbot-gray.png);
+  }
+  /* Developing section opposite */
+  #developing-section .tri-down:before {
+	background-image: url(../images/icons/speechbot-white.png);
+  }
+  #developing-section .tri-down {
+	border-top: 4px solid #ffffff;
+	color: #ffffff;
+  }
 
 
 /* 21.3.2.5 Dots
@@ -3939,7 +3966,7 @@ width: 100%;
 overflow: hidden;
 position: relative;
 padding: 40px 0 30px;
-background-color: #39d52d;
+background-color: #2aa149;
 }
 
 #return-to-top {
@@ -4487,7 +4514,7 @@ background-color: #39d52d;
         padding: 100px 0 0px !important;
     }
     #findings-section {
-    padding: 50px 0 100px;
+    padding: 50px 0 50px;
     }
 
     #story-section {
@@ -4503,7 +4530,7 @@ background-color: #39d52d;
     .container { width: 450px; }
 
     #findings-section {
-    padding: 50px 0 100px;
+    padding: 50px 0 50px;
     }
 
     #story-section {
@@ -4603,7 +4630,7 @@ background-color: #39d52d;
     }
 
     #findings-section {
-    padding: 50px 0 100px;
+    padding: 50px 0 50px;
     }
 
     #story-section {
