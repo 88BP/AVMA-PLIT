@@ -4202,6 +4202,11 @@ background-color: #2aa149;
         display: block;
         padding: 24px 0 0;
     }
+
+    .navbar {
+    margin: 0;
+    min-height: 100px;
+
     .navbar-collapse.collapse { display: block !important; }
     .navbar-collapse {
         top: 0;
@@ -4256,7 +4261,7 @@ background-color: #2aa149;
         line-height: 50px;
         position: relative;
     }
-    .navbar-nav > li.active > a { background-color: #6d6464; }
+    .navbar-nav > li.active > a { background-color: #282729; }
     .navbar-nav > li > a:before {
         left: 0;
         bottom: 0;
@@ -4265,7 +4270,7 @@ background-color: #2aa149;
         z-index: -1;
         content: '';
         position: absolute;
-        background-color: #2aa149;
+        background-color: #282729;
 
         -webkit-transition: all 0.3s ease-in-out;
            -moz-transition: all 0.3s ease-in-out;
@@ -4293,7 +4298,7 @@ background-color: #2aa149;
         list-style: none;
         overflow: hidden;
         position: relative;
-        background-color: #323133;
+        background-color: #6d6464;
 
         -webkit-transition: all 0.3s ease-in-out;
            -moz-transition: all 0.3s ease-in-out;
@@ -4319,9 +4324,13 @@ background-color: #2aa149;
         line-height: 50px;
     }
     .owl-home .slide-title {
-        font-size: 50px;
-        line-height: 70px;
+        font-size: 90px;
         margin-bottom: 10px;
+    }
+
+    .large-title {
+        white-space: pre;
+        font-size: 160px;
     }
 
     .feature-left-image { margin: 0 auto 45px; }
@@ -4382,7 +4391,6 @@ background-color: #2aa149;
     .no-bottom-padding { padding-bottom: 150px !important; }
 
     .feature-bottom-image { display: none; }
-    
     #brand-gallery-section { padding-top: 50px; }
 
     #purchase-section,
